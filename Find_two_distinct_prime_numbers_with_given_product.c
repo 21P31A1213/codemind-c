@@ -19,26 +19,26 @@ int main()
     {
         for(j=1;j<n;j++)
         {
-            if(i!=j&&i*j==n&&prime(i)==1&&prime(j)==1)
-            {
-                a=i;
-                b=j;
-                c=1;
-                break;
-            }
-        }
-        if(c==1)
-        {
+        if(i!=j&&i*j==n&&prime(i)==1&&prime(j)==1)
+          {
+            a=i;
+            b=j;
+            c=1;
             break;
+           }
         }
-    }
     if(c==1)
     {
-        printf("%d %d",a,b);
+        break;
     }
-    else
-    {
-        printf("-1");
-    }
-    return 0;
+  }
+  if(c==1)
+  {
+      printf("%d %d",a,b)    ;
+  }
+  else
+  {
+      printf("-1");
+  }
+  return 0;
 }
