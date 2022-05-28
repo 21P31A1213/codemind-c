@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    int a=0,b=1,c,n,i;
+    int a=0,b=1,c,i,n;
     scanf("%d",&n);
     int arr[100],j=0,x,y;
     for(i=0;i<n;i++)
@@ -33,3 +33,4 @@ int main()
         printf("%d %d",x,y);
     }
 }
+
