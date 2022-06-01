@@ -13,7 +13,7 @@ bool isprime(int n)
 bool isdigitprime(int n)
 {
     int temp=n,digit;
-    while (temp)
+    while(temp)
     {
         digit=temp%10;
         if(digit!=2&&digit!=3&&digit!=5&&digit!=7)
