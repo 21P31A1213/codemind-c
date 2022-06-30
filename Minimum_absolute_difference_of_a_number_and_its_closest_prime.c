@@ -45,9 +45,7 @@ int main()
     }
     int min=a-mn,max=mx-a;
     if(min>max)
-    printf("%d
-",max);
+    printf("%d",max);
     else
-    printf("%d
-",min);
+    printf("%d",min);
 }
