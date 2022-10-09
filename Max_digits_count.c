@@ -42,6 +42,9 @@ int main()
         {
             k++;
         }
+        
+        
     }
     printf("%d",k);
+    
 }
