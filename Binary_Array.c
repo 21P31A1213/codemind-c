@@ -12,7 +12,7 @@ int main()
     }
     for(i=0;i<n;i++)
     {
-        if(ar[i]!=0&&ar[i]!=1)
+        if(ar[i]!=0 && ar[i]!=1)
         {
             s=1;
             break;
