@@ -22,8 +22,10 @@ int main()
             c++;
         }
         if(c==m)
-        d++;
-        
+        {
+            d++;
+        }
     }
     printf("%d",d);
+    
 }
