@@ -12,11 +12,11 @@ int main()
     scanf("%d%d",&a,&b);
     for(i=0;i<n;i++)
     {
-        if(ar[i]>=a&&ar[i]<=b)
-            {
-                c[d]=ar[i];
-                   d++;
-            }
+       if(ar[i]>=a&&ar[i]<=b)
+       {
+           c[d]=ar[i];
+           d++;
+       }
     }
     if(d>0)
     {
