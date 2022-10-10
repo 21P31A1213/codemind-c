@@ -23,11 +23,7 @@ int main()
         }
     }
     if(c==n)
-    {
-        printf("yes");
-    }
+    printf("yes");
     else
-    {
-        printf("no");
-    }
+    printf("no");
 }
