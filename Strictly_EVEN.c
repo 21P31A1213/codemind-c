@@ -24,7 +24,11 @@ int main()
         }
     }
     if(t==0)
-    printf("False");
+    {
+        printf("False");
+    }
     else
-    printf("True");
+    {
+        printf("True");
+    }
 }
