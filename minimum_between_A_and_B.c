@@ -19,7 +19,7 @@ int main()
         }
     }
     int min=c[0];
-    for(i=0;i<d;i++)
+    for(i=0;i<n;i++)
     {
         if(c[i]<min)
         {
