@@ -16,21 +16,23 @@ int main()
         if(ar[i]>=z)
         {
             c=0;
-            if(ar[i]==1)
-            c=1;
-            for(j=2;j<ar[i];j++)
-            {
-                if(ar[i]%j==0)
+            if(ar[i]>=z)
+                c=0;
+                if(ar[i]==1)
+                c=1;
+                for(j=2;j<ar[i];j++)
                 {
-                    c++;
-                    break;
+                    if(ar[i]%j==0)
+                    {
+                        c++;
+                        break;
+                    }
+                }
+                if(c==0)
+                {
+                    s++;
                 }
             }
-            if(c==0)
-            {
-                s++;
-            }
         }
-    }
-    printf("%d",s);
+        printf("%d",s);
 }
